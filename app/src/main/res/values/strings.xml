@@ -2,4 +2,5 @@
     <string name="app_name">Service1</string>
     <string name="play">Play</string>
     <string name="stop">Stop</string>
+    <string name="broadcast">Broadcast</string>
 </resources>

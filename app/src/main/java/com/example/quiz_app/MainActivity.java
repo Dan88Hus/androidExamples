@@ -7,6 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/*
+        The activity_main.xml file will be composed of a Button component, which sends a custom broadcast in the
+        moment that it is clicked. to register a broadcast receiver there are two possible solutions. The first one
+        is to register the broadcast receiver directly in the Manifest file, by adding the <receiver>
+        element.
+*/
+
+
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private Button startButton;
